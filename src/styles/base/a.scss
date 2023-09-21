@@ -1,0 +1,15 @@
+.app-a {
+    color: $primary;
+    transition: 0.025s;
+    cursor: pointer;
+    margin: 1em;
+
+    &:hover{
+        color: $primary-dark;
+    }
+
+    &_active{
+        color: $primary-dark;
+        
+    }
+}
