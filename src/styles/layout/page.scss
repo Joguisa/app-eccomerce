@@ -1,7 +1,7 @@
 app-page {
     max-width: 900px;
     margin: 16px auto;
-    background: $base-ligth;
+    background: $base-light;
     border: 1px solid $base-dark;
     border-radius: 8px;
     padding: 32px;
@@ -14,7 +14,9 @@ app-page {
     }
 
     &__content {
-
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
     &__footer {
